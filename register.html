@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/css/bootstrap-datetimepicker.css" integrity="sha256-b5ZKCi55IX+24Jqn638cP/q3Nb2nlx+MH/vMMqrId6k=" crossorigin="anonymous" />
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.10/css/mdb.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body><html lang="en">
+  <body>
+      <div class="header_register">
+          <h1>GATA FORM</h1>
+          
+        </div>
+    
+
+    <div class="container">
+      <br><br><br><br><br><br>
+      <h2 class="title text-center pb-5">REGISTRATION FORM</h2>
+      <form action="">
+        <div class="row">
+            <div class="col-md-2 "></div>
+            <div class="col-md-1 testimonials"></div>
+
+          <div class="col-md-9 ">
+             <!-- membership  TYPE -->
+             <br><br><br><br>
+                <h5 >Membership Type(check One)</h5>
+              <div class="form-group">
+                  <label for="MembershipType"></label>
+                  <br>
+
+                  <div class="custom-control custom-checkbox custom-control-inline">
+                      <input type="checkbox" class="custom-control-input" id="NewMemberCheckbox">
+                      <label class="custom-control-label" for="NewMemberCheckbox">New</label>
+                    </div>
+
+                    <div class="custom-control custom-checkbox custom-control-inline">
+                        <input type="checkbox" class="custom-control-input" id="renewalMemberCheckbox">
+                        <label class="custom-control-label" for="renewalMemberCheckbox">Renewal</label>
+                      </div>
+                      <div class="col-md-5">
+                       <!-- Material input -->
+                       <div class="md-form">
+                          <input type="text" id="gataID" class="form-control">
+                          <label for="gataID">GATA ID(renwal)</label>
+                        </div>
+                      </div>
+                      <br>
+                      
+              </div><!-- END OF MEMBERSHIP TYPE-->
+              <!-- membership CATERGORY-->
+              <h5>Membership Category</h5>
+              <div class="form-group membershipCategory">
+                  <label for="MembershipType"></label>
+
+                  <div class="custom-control custom-checkbox ">
+                      <input type="checkbox" class="custom-control-input" id="activeprocheckbox">
+                      <label class="custom-control-label" for="activeprocheckbox">Active Professional</label>
+                    </div><br>
+
+                    <div class="custom-control custom-checkbox ">
+                        <input type="checkbox" class="custom-control-input" id="emerituscheckbox">
+                        <label class="custom-control-label" for="emerituscheckbox">Emeritus/Retired</label>
+                      </div><br>
+
+                      <div class="custom-control custom-checkbox ">
+                          <input type="checkbox" class="custom-control-input" id="associatecheckbox">
+                          <label class="custom-control-label" for="associatecheckbox">Associate</label>
+                        </div><br>
+
+                        <div class="custom-control custom-checkbox ">
+                            <input type="checkbox" class="custom-control-input" id="institutionalcheckbox">
+                            <label class="custom-control-label" for="institutionalcheckbox">Institutional</label>
+                          </div><br>
+
+
+                        <div class="custom-control custom-checkbox ">
+                            <input type="checkbox" class="custom-control-input" id="defaultInline7">
+                            <label class="custom-control-label" for="defaultInline7">Student(College/University)</label>
+                            <h6 class="pt-3">Please upload a scanned copy of a valid Student ID
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                      <span class="input-group-text" id="inputGroupFileAddon01">Upload</span>
+                                    </div>
+                                    <div class="custom-file">
+                                      <input type="file" class="custom-file-input" id="inputGroupFile01"
+                                        aria-describedby="inputGroupFileAddon01">
+                                      <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+                                    </div>
+                                  </div>
+                                  <button type="button" class="btn btn-success">upload</button>
+                                  <br>
+                                  <h6>Expected Graduation Date</h6>
+                                  <div class="col-md-4 md-form">
+                                      <input placeholder="Date:__ /_MM_/_YYYY__" type="date" id="date-picker" class="form-control datepicker">
+                                      <label for="date-picker"></label>
+                                    </div>
+                            </h6>     
+                      
+              </div>
+              </div><!--End of  membership CATEGORY-->
+
+              <br><br>
+              <!-- membership Division-->
+              <h5>Membership Division(check Only  One)</h5>
+              <div class="form-group">
+                  <label for="MembershipDivision"></label>
+                  <br>
+
+                   <div class="custom-control custom-checkbox custom-control-inline">
+                      <input type="checkbox" class="custom-control-input" id="defaultInline8">
+                      <label class="custom-control-label" for="defaultInline8">Preschool</label>
+                    </div>
+
+                    <div class="custom-control custom-checkbox custom-control-inline">
+                        <input type="checkbox" class="custom-control-input" id="defaultInline9">
+                        <label class="custom-control-label" for="defaultInline9">JHS Level</label>
+                      </div>
+
+                      <div class="custom-control custom-checkbox custom-control-inline">
+                          <input type="checkbox" class="custom-control-input" id="defaultInline10">
+                          <label class="custom-control-label" for="defaultInline10">SHS</label>
+                        </div>
+
+                        <div class="custom-control custom-checkbox custom-control-inline">
+                            <input type="checkbox" class="custom-control-input" id="defaultInline11">
+                            <label class="custom-control-label" for="defaultInline11">TVET</label>
+                          </div>
+                        <div class="custom-control custom-checkbox custom-control-inline">
+                              <input type="checkbox" class="custom-control-input" id="defaultInline12">
+                              <label class="custom-control-label" for="defaultInline12">Higher Education</label>
+                        </div>
+
+                        <div class="custom-control custom-checkbox custom-control-inline">
+                            <input type="checkbox" class="custom-control-input" id="defaultInline13">
+                            <label class="custom-control-label" for="defaultInline13">Museum</label>
+
+                      </div> <br><br>
+
+                      <div class="custom-control custom-checkbox ">
+                          <input type="checkbox" class="custom-control-input" id="defaultInline14">
+                          <label class="custom-control-label" for="defaultInline14">Supervision/Administration</label>
+                        </div><br>
+                        <div class="custom-control custom-checkbox custom-control-inline">
+                            <input type="checkbox" class="custom-control-input" id="defaultInline15">
+                            <label class="custom-control-label" for="defaultInline15">Student</label>
+                      </div>
+
+                      <div class="custom-control custom-checkbox custom-control-inline">
+                          <input type="checkbox" class="custom-control-input" id="defaultInline16">
+                          <label class="custom-control-label" for="defaultInline16">Other <input type="text" id="form1" class="form-control-inline">
+                            <label for="form1"></label></label>
+
+                    </div>
+          </div><br>
+          <!-- END OF membership Division-->
+
+          <!-- SCHOOL TYPE-->
+          <h5>School Type(Check One)</h5>
+          <form-group>
+              <br>
+              <div class="custom-control custom-checkbox custom-control-inline">
+                  <input type="checkbox" class="custom-control-input" id="defaultInline17">
+                  <label class="custom-control-label" for="defaultInline17">Private</label>
+            </div><br><br>
+                <div class="custom-control custom-checkbox custom-control-inline">
+                    <input type="checkbox" class="custom-control-input" id="defaultInline18">
+                    <label class="custom-control-label" for="defaultInline18">Public</label>
+              </div><br><br>
+
+              <div class="custom-control custom-checkbox custom-control-inline">
+                  <input type="checkbox" class="custom-control-input" id="defaultInline19">
+                  <label class="custom-control-label" for="defaultInline19">Other <input type="text" id="form1" class="form-control-inline">
+                    <label for="form1"></label></label>
+
+            </div>
+
+          </form-group><!-- END OF SCHOOL TYPE FORM GROUP-->
+      </form><!-- END OF MEMBERSHIP FORM-->
+      <br><hr><hr>
+    </div>
+    
+    <div class="container"> <br>  <br>  <br>  <br> 
+        <h2 class="title text-center pb-5">CONTACT INFORMATION</h2>
+        <br>  <br> 
+        
+                <!-- Extended material form grid -->
+<form>
+   <!--full name -->
+  <div class="row">
+    <!-- Grid column -->
+    <div class="col-md-2 "></div>
+    <div class="col-md-3 ">
+      
+      <div class="md-form mt-0">
+        <input type="text" class="form-control" placeholder="First name">
+      </div>
+    </div>
+    <div class="col-md-2 ">
+      
+        <div class="md-form mt-0">
+          <input type="text" class="form-control" placeholder="Other name">
+        </div>
+      </div>
+    <!-- Grid column end-->
+
+    <!-- Grid column -->
+    <div class="col-md-3">
+      <!-- Material input -->
+      <div class="md-form mt-0">
+        <input type="text" class="form-control" placeholder="Last name">
+      </div>
+    </div>
+    
+  </div>
+  <!-- Grid column full name ended -->
+  <!-- Name of organization -->
+  <div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+      <div class="md-form">
+        <input type="text" id="form2" class="form-control"><br>
+        <label for="form2">Name of School/Organization</label>
+      </div></div>
+      <div class="col-md-2"></div>
+
+  </div>
+  <!-- End of Name organization -->
+
+
+  <!-- BEGINNING OF  ADDRESS  -->
+    <div class="row">
+      <div class="col-md-2"></div>
+      <div class="col-md-8">
+          <div class="form-group">
+              <label for="Address"></label>
+              <br>
+
+              <div class="custom-control custom-checkbox custom-control-inline">
+                  <input type="checkbox" class="custom-control-input" id="defaultInline22">
+                  <label class="custom-control-label" for="defaultInline22">Work  Address   </label>
+                </div>
+
+                <div class="custom-control custom-checkbox custom-control-inline">
+                    <input type="checkbox" class="custom-control-input" id="defaultInline23">
+                    <label class="custom-control-label" for="defaultInline23">Home Address </label>
+                  </div>
+                  <div class="col-md-5">
+                   <!-- Material input -->
+                   <div class="md-form">
+                      <input type="text" id="form3" class="form-control">
+                      <label for="form3">Address</label>
+                    </div>
+
+                    <div class="md-form">
+                        <input type="text" id="form4" class="form-control">
+                        <label for="form4">City</label>
+                      </div>
+                  </div>
+                  <br>
+                  
+          </div>
+      </div>
+      <div class="col-md-2"></div>
+    </div>
+    <!-- end of ADDRESS -->
+
+      <!-- Begining of region municipalities and zone -->
+    
+
+    <div class="row">
+        <!-- Grid column -->
+        <div class="col-md-2"></div>
+        <div class="col-md-3">
+          
+          <div class="md-form mt-0">
+            <input type="text" class="region form-control" placeholder="Region">
+          </div>
+        </div>
+        <div class="col-md-4">
+          
+            <div class="md-form mt-0">
+              <input type="text" class="municipal form-control" placeholder="Municipal/District">
+            </div>
+          </div>
+        <!-- Grid column end-->
+    
+        <!-- Grid column -->
+        <div class="col-md-1">
+          <!-- Material input -->
+          <div class="md-form mt-0">
+            <input type="number" class=" zone form-control" placeholder="Zone">
+          </div>
+        </div>
+        
+      </div>
+      <br>
+
+    <!-- end for municipality/zone/region-->
+    <!-- Section for phone number -->
+       <div class="row">
+       <div class="col-md-2"></div>
+       <div class="col-md-6">
+         <div class="form-group">
+           
+            <div class="custom-control custom-checkbox custom-control-inline">
+                <input type="checkbox" class="custom-control-input" id="checkboxForPhoneNumber">
+                <label class="custom-control-label" for="checkboxForPhoneNumber"><i class="fa fa-phone-square"></i> Mobile phone Number/Telephone      <br><input type="text" id="inputForPhoneNumber" class="form-control-inline">
+                  <label for="inputForPhoneNumber"></label></label>
+
+          </div>
+         </div>
+
+       </div>
+       <div class="col-md-4"></div>
+
+       </div>
+
+
+
+
+    <!-- End of phone number input-->
+
+    <!-- section for email address-->
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <!-- Material input -->
+         <div class="md-form">
+          <i class="fas fa-envelope prefix"></i>
+          <input type="text" id="inputEmail" class="form-control">
+         <label for="inputEmail">E-mail address</label>
+        </div>
+          </div>
+        </div>
+        <div class="col-md-4"></div>
+      </div>
+
+    <!--end  section for email address-->
+    <!------gender-->
+    <div class="row">
+        <div class="col-md-2 "></div>
+        <div class="col-md- "></div>
+
+      <div class="col-md-8 ">
+         <!-- membership  TYPE -->
+         <br>
+            <h5>Gender</h5>
+          <div class="form-group">
+              <label for="MembershipType"></label>
+              <br>
+
+              <div class="custom-control custom-checkbox custom-control-inline">
+                  <input type="checkbox" class="custom-control-input" id="NewMemberCheckbox">
+                  <label class="custom-control-label" for="NewMemberCheckbox">Male</label>
+                </div>
+
+                <div class="custom-control custom-checkbox custom-control-inline">
+                    <input type="checkbox" class="custom-control-input" id="renewalMemberCheckbox">
+                    <label class="custom-control-label" for="renewalMemberCheckbox">Female</label>
+                  </div>
+
+
+
+
+
+
+
+
+       <br>
+      <!-- section for button-->
+       <div class="row">
+         <div class="col-md-5"></div>
+         <div class="col-md-2 registerbtn"><button type="submit" class="btn btn-primary btn-md">Submit</button></div>
+         <div class="col-md-5"></div>
+       </div>
+
+        <!-- end of button section -->
+
+  </form>
+  <!-- Extended material form grid -->
+           
+    </div>
+   
+        
+          <!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/js/bootstrap-datetimepicker.min.js" integrity="sha256-5YmaxAwMjIpMrVlK84Y/+NjCpKnFYa8bWWBbUHSBGfU=" crossorigin="anonymous"></script>
+
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.10/js/mdb.min.js"></script>
+
+         <script src="app.js"></script>
+</body>
+</html>

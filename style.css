@@ -1,0 +1,95 @@
+html,
+body,
+header,
+.view {
+  height: 100%;
+  
+}
+.header_register {
+  padding: 60px;
+  text-align: center;
+  background: #78909c;
+  color: white;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    
+    height: 100vh;
+  }
+}
+
+.top-nav-collapse {
+  background-color: #78909c !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #78909c !important;
+  }
+}
+
+h1 {
+  letter-spacing: 8px;
+}
+
+h5 {
+  letter-spacing: 3px;
+}
+
+.hr-light {
+  border-top: 3px solid #fff;
+  width: 80px;
+}
+#register {
+  background: #78909c !important;
+  color: black!important;
+}
+.btn btn-success{
+  border-radius: 10% !important;
+  size: 10px!important;
+}
+.testimonials{
+  border-left: 6px solid #78909c;
+  margin-top: 80px;
+  margin-bottom: px;
+
+}
+.testimonialss{
+  border-left: 6px solid #78909c;
+  margin-top: 80px;
+  margin-bottom: px;
+
+}
+.title::before{
+   
+  content:"";
+  background:#78909c;
+  height: 5px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transform: translateY(60px)
+  
+ }
+ .title::after{
+   
+  content:"";
+  background:#78909c;
+  height: 10px;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  display: block;
+  transform: translateY(14px)
+  
+ }
