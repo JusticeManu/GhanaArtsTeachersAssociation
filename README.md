@@ -1,1 +1,2 @@
 # GhanaArtsTeachersAssociation
+gatazones.netlify.com
